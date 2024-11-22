@@ -7,6 +7,7 @@
     text-align: center;
     padding: 1.75rem 1rem;
     position: relative;
+    transition: .2s linear;
     /* Para funcionar os positions, tem que ser relativo a algo, por isso tem que declarar o position relative */
     /* Porque o padrao é fixed */
 
@@ -23,6 +24,7 @@
     }
 
     &:hover, &:has(input:focus) {
+        transition: .2s linear;
         border-width: 2px;
         border-color: var(--stroke-highlight);
         background-color: var(--surface-secondary);
