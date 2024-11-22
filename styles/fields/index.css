@@ -1,3 +1,6 @@
+@import url(droparea.css);
+
+
 /* Fields = Campos */
 input,
 textarea,
@@ -21,7 +24,9 @@ label {
 
 input:focus,
 select:focus,
-textarea:focus {
+textarea:focus,
+input[type="date"]:focus-within {
+    /* Focus-within significa que ele vai buscar no input do tipo date e ver quem ta em foco e aplicar esses estilos */
     outline: .25rem solid var(--surface-secondary);
     border: .125rem solid var(--stroke-highlight);
 
