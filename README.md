@@ -2,6 +2,9 @@
 
 Formulário de matrícula da escola fictícia Estrelas do Amanhã, feito com HTML e CSS.
 
+<p align="center"><img src=".github/preview.png" alt="Página do formulario-matricula" width="800"></p>
+
+
 🔗 **[Ver online](https://kayandenizo.github.io/formulario-matricula/)**
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
